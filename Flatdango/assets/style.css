@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: left;
+  background-color: rgba(49, 63, 65, 0.363);
+  width: 500px;
+  height: max-content;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.container {
+  display: flex;
+}
+
+.movie-list {
+  width: 400px;
+}
+
+.movie-list li {
+  display: inline-block;
+  align-items: center;
+  border: 2px solid black;
+  list-style: none;
+  width: 350px;
+  height: 40px;
+  padding: 20px;
+  margin: 20px;
+  background-color: gainsboro;
+  border-radius: 20px;
+}
+
+.movie-card {
+  float: right;
+}
+
+#movie-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.movie-details-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.movie-details-card img {
+  width: 200px;
+  height: 250px;
+}
+
+.movie-details-card p {
+  margin: 10px 0;
+}
+.movie-details-card button {
+  align-items: center;
+}
